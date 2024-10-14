@@ -1,4 +1,6 @@
 // Leetcode -189- Rotate_Array
+// time comp: O(n)
+// space comp: O(1)
 
 import java.util.Scanner;
 public class Main{
