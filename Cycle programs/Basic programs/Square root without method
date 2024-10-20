@@ -1,0 +1,20 @@
+import java.util.Scanner;  
+public class SRoot{  
+public static void main(String[] args)    {   
+System.out.print("Enter a number: ");   
+Scanner sc = new Scanner(System.in);  
+int num = sc.nextInt();  
+System.out.println("The square root of "+ n+ " is: "+squareRoot(num));  
+}  
+public static double squareRoot(int num)   {  
+double t;  
+double sqrroot=num/2;  
+do   
+{  
+t=sqrroot;  
+sqrroot=(t+(num/t))/2;  
+}   
+while((t-sqrroot)!= 0);  
+return sqrroot;  
+}  
+}
